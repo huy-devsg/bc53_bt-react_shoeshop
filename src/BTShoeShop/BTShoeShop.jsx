@@ -62,12 +62,6 @@ export const BTShoeShop = () => {
 
 
     useEffect(() => {
-        // Đây là nơi bạn có thể thực hiện bất kỳ tác vụ nào cần thiết sau khi state `carts` thay đổi.
-        // Ví dụ: bạn có thể lưu state `carts` vào local storage ở đây.
-
-        // Nếu bạn không có bất kỳ tác vụ nào cần thực hiện sau khi `carts` thay đổi,
-        // bạn có thể bỏ trống hàm này.
-
     }, [carts]);
 
     return (
